@@ -1,5 +1,5 @@
 
-### Plotting 
+### Visualization 
 
 *  "matplotlib" [official](https://matplotlib.org/)
 ``` Matplotlib is a Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms.  ```
