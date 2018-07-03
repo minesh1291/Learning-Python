@@ -9,11 +9,18 @@ https://wiki.python.org/moin/UsefulModules
 * "pip / pipenv"
 ``` ```
 
+* "pep8"
+``` pep8 is a tool to check your Python code against some of the style conventions in PEP 8. ```
+
+* "pypinfo" [official](https://github.com/ofek/pypinfo)
+``` Easily view PyPI download statistics via Google's BigQuery. https://bigquery.cloud.google.com/table/the-psf:pypi
+ ```
+
 ---
 
 ### Connectivity
 
-* "gcloud"
+* "gcloud / google-api-python-client"
 ``` for BigQuery connection ```
 
 
@@ -76,6 +83,9 @@ https://wiki.python.org/moin/UsefulModules
 
 ### Text Manipulation
 * "re"
+```  ```
+
+* "regex"
 ```  ```
 
 * "flashtext"
