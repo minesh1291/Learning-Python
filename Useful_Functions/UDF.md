@@ -1,3 +1,14 @@
+<!-- TOC START min:1 max:3 link:true update:true -->
+- [User defined functions](#user-defined-functions)
+  - [Python Structure for object oriented programming](#python-structure-for-object-oriented-programming)
+  - [Import sniplets](#import-sniplets)
+  - [UDF for python utils](#udf-for-python-utils)
+  - [UDF for Data Preparation](#udf-for-data-preparation)
+    - [One-hot encoding for categorical columns with get_dummies](#one-hot-encoding-for-categorical-columns-with-get_dummies)
+  - [UDF Dump](#udf-dump)
+
+<!-- TOC END -->
+
 # User defined functions
 
 ## Python Structure for object oriented programming
@@ -43,7 +54,7 @@ if __name__ == "__main__":
   with timer("Full run"):
     main()
 
-```
+    ```
 
 ## Import sniplets
 

@@ -1,20 +1,38 @@
 # Useful Python Packages
 https://wiki.python.org/moin/UsefulModules
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
+- [Useful Python Packages](#useful-python-packages)
+		- [Basic](#basic)
+		- [Connectivity](#connectivity)
+		- [Data collaction](#data-collaction)
+		- [Data Manipulation](#data-manipulation)
+		- [Data Modelling / Mathametics & Statistics](#data-modelling-mathametics-statistics)
+		- [Visualization](#visualization)
+			- [Graphs - visualization](#graphs-visualization)
+		- [Time-Series Data Processing](#time-series-data-processing)
+		- [Text Manipulation](#text-manipulation)
+		- [Natural Language Processing](#natural-language-processing)
+		- [Image Precessing](#image-precessing)
+		- [Biological Data Retrive & Processing](#biological-data-retrive-processing)
+		- [Machine Learning](#machine-learning)
+		- [Distributed Learning](#distributed-learning)
+		- [Dashboard](#dashboard)
+
+<!-- /TOC -->
 ### Basic
 
 *  "os"
-``` ```
+<!--``` ```-->
 
 * "pip / pipenv"
-``` ```
+<!--``` ```-->
 
 * "pep8"
 ``` pep8 is a tool to check your Python code against some of the style conventions in PEP 8. ```
 
 * "pypinfo" [official](https://github.com/ofek/pypinfo)
-``` Easily view PyPI download statistics via Google's BigQuery. https://bigquery.cloud.google.com/table/the-psf:pypi
- ```
+``` Easily view PyPI download statistics via Google's BigQuery. https://bigquery.cloud.google.com/table/the-psf:pypi ```
 
 ---
 

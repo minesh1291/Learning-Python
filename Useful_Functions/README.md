@@ -1,3 +1,10 @@
+<!-- TOC START min:1 max:3 link:true update:true -->
+- [Useful Python Functions](#useful-python-functions)
+    - [Basic](#basic)
+    - [Special keywords](#special-keywords)
+
+<!-- TOC END -->
+
 # Useful Python Functions
 https://docs.python.org/3.3/library/functions.html
 
