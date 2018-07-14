@@ -1,26 +1,27 @@
+<!-- TOC START min:1 max:3 link:true update:true -->
+- [Useful Python Packages](#useful-python-packages)
+  - [Basic](#basic)
+  - [Connectivity](#connectivity)
+  - [Data collaction](#data-collaction)
+  - [Data Manipulation](#data-manipulation)
+  - [Data Modelling / Mathametics & Statistics](#data-modelling--mathametics--statistics)
+  - [Visualization](#visualization)
+    - [Graphs - visualization](#graphs---visualization)
+    - [Time-Series Data Processing](#time-series-data-processing)
+    - [Text Manipulation](#text-manipulation)
+    - [Natural Language Processing](#natural-language-processing)
+    - [Image Precessing](#image-precessing)
+    - [Biological Data Retrive & Processing](#biological-data-retrive--processing)
+    - [Machine Learning](#machine-learning)
+    - [Distributed Learning](#distributed-learning)
+    - [Dashboard](#dashboard)
+
+<!-- TOC END -->
+
 # Useful Python Packages
 https://wiki.python.org/moin/UsefulModules
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [Useful Python Packages](#useful-python-packages)
-		- [Basic](#basic)
-		- [Connectivity](#connectivity)
-		- [Data collaction](#data-collaction)
-		- [Data Manipulation](#data-manipulation)
-		- [Data Modelling / Mathametics & Statistics](#data-modelling-mathametics-statistics)
-		- [Visualization](#visualization)
-			- [Graphs - visualization](#graphs-visualization)
-		- [Time-Series Data Processing](#time-series-data-processing)
-		- [Text Manipulation](#text-manipulation)
-		- [Natural Language Processing](#natural-language-processing)
-		- [Image Precessing](#image-precessing)
-		- [Biological Data Retrive & Processing](#biological-data-retrive-processing)
-		- [Machine Learning](#machine-learning)
-		- [Distributed Learning](#distributed-learning)
-		- [Dashboard](#dashboard)
-
-<!-- /TOC -->
-### Basic
+## Basic
 
 *  "os"
 <!--``` ```-->
@@ -28,86 +29,81 @@ https://wiki.python.org/moin/UsefulModules
 * "pip / pipenv"
 <!--``` ```-->
 
-* "pep8"
-``` pep8 is a tool to check your Python code against some of the style conventions in PEP 8. ```
+* ```pep8```
+	pep8 is a tool to check your Python code against some of the style conventions in PEP 8. ```
 
-* "pypinfo" [official](https://github.com/ofek/pypinfo)
-``` Easily view PyPI download statistics via Google's BigQuery. https://bigquery.cloud.google.com/table/the-psf:pypi ```
+* ```pypinfo``` [official](https://github.com/ofek/pypinfo)
+	Easily view PyPI download statistics via Google's BigQuery. https://bigquery.cloud.google.com/table/the-psf:pypi ```
 
----
+## Connectivity
 
-### Connectivity
+* ```gcloud / google-api-python-client```
+	for BigQuery connection
 
-* "gcloud / google-api-python-client"
-``` for BigQuery connection ```
+## Data collaction
+* ```requests```
+* ```scrapy```
+* ```xmltodict```
+* ```imdbpy```
+  Python package useful to retrieve and manage the data of the IMDb movie database about movies, people, characters and companies
 
-
----
-
-### Data collaction
-* "requests"
-* "scrapy"
-* "xmltodict"
-* "imdbpy"
-```  Python package useful to retrieve and manage the data of the IMDb movie database about movies, people, characters and companies ```
-
----
-### Data Manipulation
+## Data Manipulation
 
 * "pandas"
 
 ---
 
-### Data Modelling / Mathametics & Statistics
+## Data Modelling / Mathametics & Statistics
 
-* "numpy"
-* "scipy"
-* "sympy"
-* "statsmodels"
+* ```numpy```
+* ```scipy```
+* ```sympy```
+* ```statsmodels```
 
 ---
 
 
-### Visualization
+## Visualization
 
-* "matplotlib" [official](https://matplotlib.org/)
-``` Matplotlib is a Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms.  ```
+* ```matplotlib``` [official](https://matplotlib.org/)
 
-* "seaborn" [official](https://seaborn.pydata.org/)
-``` Seaborn is a Python visualization library based on matplotlib. It provides a high-level interface for drawing attractive statistical graphics. ```
+	Matplotlib is a Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms.  
 
-* "bokeh"
-``` ```
 
-* "plotly" [official](https://plot.ly/python/)
-``` Plotly's Python graphing library makes interactive, publication-quality graphs online. ```
+* ```seaborn``` [official](https://seaborn.pydata.org/)
+	Seaborn is a Python visualization library based on matplotlib. It provides a high-level interface for drawing attractive statistical graphics.
 
-#### Graphs - visualization
+* ```bokeh```
 
-* "graphviz" [official](https://graphviz.readthedocs.io/en/stable/manual.html)
-``` provides a simple pure-Python interface for the Graphviz graph-drawing software. ```
-* "pydot" []()
-``` A Python interface to GraphViz and the DOT language. ```
+
+* ```plotly``` [official](https://plot.ly/python/)
+ 	Plotly's Python graphing library makes interactive, publication-quality graphs online.
+
+### Graphs - visualization
+
+* ```graphviz``` [official](https://graphviz.readthedocs.io/en/stable/manual.html)
+	provides a simple pure-Python interface for the Graphviz graph-drawing software.
+* ```pydot``` []()
+	A Python interface to GraphViz and the DOT language.
 
 ---
 
 ### Time-Series Data Processing
-* "pyflux"
-```  ```
-* "pendulum" [official](https://github.com/sdispater/pendulum)
-``` Pendulum provides a cleaner and more easy to use API while still relying on the standard library. So it's still datetime but better. ```
+* ```pyflux```
+
+* ```pendulum``` [official](https://github.com/sdispater/pendulum)
+ 	Pendulum provides a cleaner and more easy to use API while still relying on the standard library. So it's still datetime but better.
 
 ---
 
 ### Text Manipulation
-* "re"
-```  ```
+* ```re```
 
-* "regex"
-```  ```
+* ```regex```
 
-* "flashtext"
-```  ```
+
+* ```flashtext```
+
 
 
 ### Natural Language Processing
@@ -124,41 +120,40 @@ https://wiki.python.org/moin/UsefulModules
 ---
 
 ### Biological Data Retrive & Processing
-* "biopython" [official](https://biopython.org/)
-``` Python Tools for Computational Molecular Biology ```
+* ```biopython``` [official](https://biopython.org/)
+ 	Python Tools for Computational Molecular Biology
 
 ### Machine Learning
-* "scikit-learn" [official](http://scikit-learn.org/stable/)
-```Simple and efficient tools for data mining and data analysis. Built on NumPy, SciPy, and matplotlib. Open source, commercially usable - BSD license ```
+* ```scikit-learn``` [official](http://scikit-learn.org/stable/)
+	Simple and efficient tools for data mining and data analysis. Built on NumPy, SciPy, and matplotlib. Open source, commercially usable - BSD license
 
-* "imbalanced-learn" [official](http://imbalanced-learn.org/)
-``` imbalanced-learn is a python package offering a number of re-sampling techniques commonly used in datasets showing strong between-class imbalance. ```
+* ```imbalanced-learn``` [official](http://imbalanced-learn.org/)
+	imbalanced-learn is a python package offering a number of re-sampling techniques commonly used in datasets showing strong between-class imbalance.
 
-* "xgboost / lightgbm / catboost"
-``` for gradient boosting decision trees ```
+* ```xgboost / lightgbm / catboost```
+ 	for gradient boosting decision trees
 
-* "keras / tensorFlow / theano / pytorch"
-``` for deeplearning  ```
+* ```keras / tensorFlow / theano / pytorch```
+	for deeplearning
 
-* "eli5" []()
-``` Python library which allows to visualize and debug various Machine Learning models using unified API. It has built-in support for several ML frameworks and provides a way to explain black-box models. ```
+* ```eli5``` []()
+	Python library which allows to visualize and debug various Machine Learning models using unified API. It has built-in support for several ML frameworks and provides a way to explain black-box models.
 
 ---
 
 ### Distributed Learning
 
-* " dist-keras / elephas / spark-deep-learning"
+* ``` dist-keras / elephas / spark-deep-learning```
 
-* "pyspark.ml / pyspark.mllib"
-  * ML: ```  New, Pipelines, Dataframes based, Easier to construct a practical machine learning pipeline ```
-  * MLlib: ``` Old, RDD's based, More features ```
+* ```pyspark.ml / pyspark.mllib```
+  * **ML**:	New, Pipelines, Dataframes based, Easier to construct a practical machine learning pipeline
+  * **MLlib**:	Old, RDD's based, More features
 
 ### Dashboard
-* "Dash" [official](https://plot.ly/products/dash/)
-``` Dash is a Python framework for building analytical web applications. No JavaScript required. Built on top of Plotly.js, React, and Flask, Dash ties modern UI elements like dropdowns, sliders, and graphs to your analytical Python code. ```
+* ```Dash``` [official](https://plot.ly/products/dash/)
+ 	Dash is a Python framework for building analytical web applications. No JavaScript required. Built on top of Plotly.js, React, and Flask, Dash ties modern UI elements like dropdowns, sliders, and graphs to your analytical Python code.
 
-* "flask"
-```  ```
+* ```flask```
 
-* "fire"
-``` Fire is an open source library that can automatically generate a CLI for any Python project. ```
+* ```fire```
+	Fire is an open source library that can automatically generate a CLI for any Python project.
