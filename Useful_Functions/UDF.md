@@ -2,7 +2,12 @@
 - [User defined functions](#user-defined-functions)
   - [Python Structure for object oriented programming](#python-structure-for-object-oriented-programming)
   - [Import sniplets](#import-sniplets)
-  - [UDF for python utils](#udf-for-python-utils)
+    - [Python Basic](#python-basic)
+    - [Data Manipulation](#data-manipulation)
+    - [Data Visualization](#data-visualization)
+    - [Machine Learning](#machine-learning)
+  - [UDF for Python Utils](#udf-for-python-utils)
+    - [Task timer](#task-timer)
   - [UDF for Data Preparation](#udf-for-data-preparation)
     - [One-hot encoding for categorical columns with get_dummies](#one-hot-encoding-for-categorical-columns-with-get_dummies)
   - [UDF Dump](#udf-dump)
@@ -54,31 +59,31 @@ if __name__ == "__main__":
   with timer("Full run"):
     main()
 
-    ```
+```
 
 ## Import sniplets
 
-#### Python Basic
+### Python Basic
 
 ```py
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 ```
 
-#### Data Manipulation
+### Data Manipulation
 
 ```py
 import numpy as np
 import pandas as pd
 ```
-#### Data Visualization
+### Data Visualization
 
 ```py
 import matplotlib.pyplot as plt
 import seaborn as sns
 ```
 
-#### Machine Learning
+### Machine Learning
 
 ```py
 
@@ -91,8 +96,8 @@ from scipy.stats import norm
 from scipy.optimize import curve_fit
 ```
 
-## UDF for python utils
-
+## UDF for Python Utils
+### Task timer
 ```py
 from contextlib import contextmanager
 
