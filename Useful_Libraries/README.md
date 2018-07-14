@@ -4,19 +4,22 @@
   - [Connectivity](#connectivity)
   - [Data collaction](#data-collaction)
   - [Data Manipulation](#data-manipulation)
-  - [Data Modelling / Mathametics & Statistics](#data-modelling--mathametics--statistics)
   - [Visualization](#visualization)
     - [Graphs - visualization](#graphs---visualization)
+  - [Data Types](#data-types)
     - [Time-Series Data Processing](#time-series-data-processing)
     - [Text Manipulation](#text-manipulation)
     - [Natural Language Processing](#natural-language-processing)
     - [Image Precessing](#image-precessing)
     - [Biological Data Retrive & Processing](#biological-data-retrive--processing)
+  - [Data Modelling / Mathametics & Statistics](#data-modelling--mathametics--statistics)
     - [Machine Learning](#machine-learning)
     - [Distributed Learning](#distributed-learning)
-    - [Dashboard](#dashboard)
+  - [Dashboard](#dashboard)
 
 <!-- TOC END -->
+
+
 
 # Useful Python Packages
 https://wiki.python.org/moin/UsefulModules
@@ -53,14 +56,6 @@ https://wiki.python.org/moin/UsefulModules
 
 ---
 
-## Data Modelling / Mathametics & Statistics
-
-* ```numpy```
-* ```scipy```
-* ```sympy```
-* ```statsmodels```
-
----
 
 
 ## Visualization
@@ -87,6 +82,8 @@ https://wiki.python.org/moin/UsefulModules
 	A Python interface to GraphViz and the DOT language.
 
 ---
+
+## Data Types
 
 ### Time-Series Data Processing
 * ```pyflux```
@@ -123,6 +120,15 @@ https://wiki.python.org/moin/UsefulModules
 * ```biopython``` [official](https://biopython.org/)
  	Python Tools for Computational Molecular Biology
 
+## Data Modelling / Mathametics & Statistics
+
+* ```numpy```
+* ```scipy```
+* ```sympy```
+* ```statsmodels```
+
+---
+
 ### Machine Learning
 * ```scikit-learn``` [official](http://scikit-learn.org/stable/)
 	Simple and efficient tools for data mining and data analysis. Built on NumPy, SciPy, and matplotlib. Open source, commercially usable - BSD license
@@ -149,7 +155,7 @@ https://wiki.python.org/moin/UsefulModules
   * **ML**:	New, Pipelines, Dataframes based, Easier to construct a practical machine learning pipeline
   * **MLlib**:	Old, RDD's based, More features
 
-### Dashboard
+## Dashboard
 * ```Dash``` [official](https://plot.ly/products/dash/)
  	Dash is a Python framework for building analytical web applications. No JavaScript required. Built on top of Plotly.js, React, and Flask, Dash ties modern UI elements like dropdowns, sliders, and graphs to your analytical Python code.
 
