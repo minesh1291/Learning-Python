@@ -32,3 +32,10 @@ https://docs.python.org/3.3/library/functions.html
 * ```help([object])```
 
   Invoke the built-in help system. (This function is intended for interactive use.) If no argument is given, the interactive help system starts on the interpreter console. If the argument is a string, then the string is looked up as the name of a module, function, class, method, keyword, or documentation topic, and a help page is printed on the console. If the argument is any other kind of object, a help page on the object is generated.
+
+### Special keywords
+
+* ```yield```
+  The yield statement is only used when defining a generator function, and is only used in the body of the generator function. Using a yield statement in a function definition is sufficient to cause that definition to create a generator function instead of a normal function. When a generator function is called, it returns an iterator known as a generator iterator, or more commonly, a generator.
+
+* ```lambda```
