@@ -25,6 +25,12 @@
 ```py
 #!/usr/bin/python
 
+'''
+Python Structure for object oriented programming
+'''
+
+__author__ = "Minesh A. Jethva"
+
 from contextlib import contextmanager
 
 @contextmanager
@@ -72,6 +78,11 @@ if __name__ == "__main__":
 ```py
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
+
+from tqdm import tqdm
+
+import gc
+
 ```
 ### Data Mining
 
@@ -108,6 +119,14 @@ from sklearn.model_selection import KFold, StratifiedKFold
 
 from scipy.stats import norm
 from scipy.optimize import curve_fit
+```
+
+#### Optimization
+
+```py
+#Baysian hyperparameter optimization [https://github.com/fmfn/BayesianOptimization]
+from bayes_opt import BayesianOptimization
+
 ```
 
 ## UDF for Python Utils
